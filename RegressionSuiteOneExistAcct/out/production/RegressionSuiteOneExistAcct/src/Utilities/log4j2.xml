@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+
+        <RollingFile name="roll-by-time"
+                     fileName="e:\\GitHub\\EasyBreathe\\logs\\RegressionSuiteOneExistingAccount\\RegressionSuiteOneExistAcct.log"
+                     filePattern="e:\\GitHub\\EasyBreathe\\logs\\RegressionSuiteOneExistingAccount\\%d{yyyy-MM-dd-HHmmss}-RegressionSuiteOneExistAcct.log"
+                     ignoreExceptions="false"
+                     append="true">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %p %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd-HH:mm:ss} %-5p %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="STDOUT" level="info"/>
+            <AppenderRef ref="roll-by-time" level="info"/>
+        </Root>
+    </Loggers>
+</Configuration>
