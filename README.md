@@ -14,4 +14,4 @@
 Andrew Rath
 
 # Description
-EasyBreathe Repository for QA files, scripts, automation, etc.
+EB Repository for QA files, scripts, automation, etc.
