@@ -1,0 +1,96 @@
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 8141
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595619354.511][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 24, 2020 12:35:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-07-24 12:35:56,938 INFO  - *******************************************************************************************
+2020-07-24 12:35:56,942 INFO  - *******************************************************************************************
+2020-07-24 12:35:56,942 INFO  -                     Regression Suite One Existing Account
+2020-07-24 12:35:56,942 INFO  - *******************************************************************************************
+2020-07-24 12:35:56,942 INFO  - *******************************************************************************************
+2020-07-24 12:35:59,101 INFO  - Date-Time stamp for regression suite test run: 2020-07-24-1235_RegressionSuiteOneExAcct.log
+2020-07-24 12:35:59,101 INFO  - ----------------------------
+2020-07-24 12:35:59,102 INFO  - Starting Web Orders
+2020-07-24 12:35:59,102 INFO  - ----------------------------
+2020-07-24 12:36:02,976 INFO  - Login to Website
+2020-07-24 12:36:13,829 INFO  - ----- Starting WebOrderCC -----
+2020-07-24 12:36:13,834 INFO  - Add a filter to the order
+2020-07-24 12:36:13,838 INFO  - --- Starting OrderFilter ---
+2020-07-24 12:36:13,839 INFO  - Search for a filter
+2020-07-24 12:36:22,254 INFO  - Click Buy Now
+2020-07-24 12:36:34,832 INFO  - Click Secure Checkout
+2020-07-24 12:36:49,401 INFO  - --- Ending OrderFilter ---
+2020-07-24 12:37:54,358 INFO  - Close PopUp
+2020-07-24 12:37:54,358 INFO  - ----- Ending WebOderCC -----
+2020-07-24 12:37:54,358 INFO  - ----- Starting WebOrderGiftCard -----
+2020-07-24 12:37:54,362 INFO  - Add a filter to the order
+2020-07-24 12:37:54,365 INFO  - --- Starting OrderFilter ---
+2020-07-24 12:37:54,365 INFO  - Search for a filter
+2020-07-24 12:38:02,210 INFO  - Click Buy Now
+2020-07-24 12:38:13,565 INFO  - Click Secure Checkout
+2020-07-24 12:38:13,745 INFO  - --- Ending OrderFilter ---
+2020-07-24 12:38:16,754 INFO  - Enter Gift Card info
+2020-07-24 12:38:32,401 INFO  - Submit Gift Card payment
+2020-07-24 12:38:51,832 INFO  - Close PopoUp
+2020-07-24 12:38:51,879 INFO  - ----- Ending WebOrderGiftCard -----
+2020-07-24 12:38:51,880 INFO  - ---------------------------
+2020-07-24 12:38:51,880 INFO  - Ending Web Orders
+2020-07-24 12:38:51,880 INFO  - ---------------------------
+2020-07-24 12:38:51,880 INFO  - -------------------------------
+2020-07-24 12:38:51,880 INFO  - Starting Phone Orders
+2020-07-24 12:38:51,880 INFO  - -------------------------------
+2020-07-24 12:38:55,219 INFO  - ----- Starting PhoneOrderCC -----
+2020-07-24 12:38:55,225 INFO  - Starting Phone Order Base
+2020-07-24 12:38:59,324 INFO  - Search for name of Customer
+2020-07-24 12:39:09,982 INFO  - Select Customer found
+2020-07-24 12:39:11,180 INFO  - Hit Continue
+2020-07-24 12:39:32,590 INFO  - Ending Phone Order Base
+2020-07-24 12:39:32,590 INFO  - Click Submit
+2020-07-24 12:39:36,465 INFO  - ----- Ending PhoneOrderCC -----
+2020-07-24 12:39:36,466 INFO  - ----- Starting PhoneOrderMailingCheck -----
+2020-07-24 12:39:36,466 INFO  - Starting Phone Order Base
+2020-07-24 12:39:40,523 INFO  - Search for name of Customer
+2020-07-24 12:39:51,190 INFO  - Select Customer found
+2020-07-24 12:39:51,807 INFO  - Hit Continue
+2020-07-24 12:40:16,371 INFO  - Ending Phone Order Base
+2020-07-24 12:40:16,371 INFO  - Select Mail Check order option and submit order
+2020-07-24 12:40:19,200 INFO  - ----- Ending PhoneOrderMailingCheck -----
+2020-07-24 12:40:19,200 INFO  - ----- Starting PhoneOrderManualSplitPayment -----
+2020-07-24 12:40:19,201 INFO  - Starting Phone Order Base
+2020-07-24 12:40:23,543 INFO  - Search for name of Customer
+2020-07-24 12:40:34,087 INFO  - Select Customer found
+2020-07-24 12:40:34,729 INFO  - Hit Continue
+2020-07-24 12:40:55,629 INFO  - Ending Phone Order Base
+2020-07-24 12:40:55,630 INFO  - Select Manual or Split Payment option and submit order
+2020-07-24 12:40:58,292 INFO  - ----- Ending PhoneOrderManualSplitPayment -----
+2020-07-24 12:40:58,293 INFO  - ----- Starting PhoneOrderNoPaymentRequired -----
+2020-07-24 12:40:58,293 INFO  - Starting Phone Order Base
+2020-07-24 12:41:02,666 INFO  - Search for name of Customer
+2020-07-24 12:41:13,411 INFO  - Select Customer found
+2020-07-24 12:41:14,048 INFO  - Hit Continue
+2020-07-24 12:41:35,516 INFO  - Ending Phone Order Base
+2020-07-24 12:41:35,516 INFO  - Select No Payment Required option and submit order
+2020-07-24 12:41:38,355 INFO  - ----- Ending PhoneOrderNoPaymentRequired -----
+2020-07-24 12:41:38,356 INFO  - ----- Starting PhoneOrderECheck
+2020-07-24 12:41:38,357 INFO  - Starting Phone Order Base
+2020-07-24 12:41:43,075 INFO  - Search for name of Customer
+2020-07-24 12:41:54,038 INFO  - Select Customer found
+2020-07-24 12:41:54,690 INFO  - Hit Continue
+2020-07-24 12:42:16,480 INFO  - Ending Phone Order Base
+2020-07-24 12:42:16,480 INFO  - Enter E-Check option and info
+2020-07-24 12:42:16,819 INFO  - Click Submit
+2020-07-24 12:42:20,171 INFO  - ----- Ending PhoneOrderECheck
+2020-07-24 12:42:20,172 INFO  - ----- Starting PhoneOderGiftCard -----
+2020-07-24 12:42:20,172 INFO  - Starting Phone Order Base
+2020-07-24 12:42:24,186 INFO  - Search for name of Customer
+2020-07-24 12:42:34,750 INFO  - Select Customer found
+2020-07-24 12:42:35,404 INFO  - Hit Continue
+2020-07-24 12:42:55,911 INFO  - Ending Phone Order Base
+2020-07-24 12:42:55,911 INFO  - Select Gift Card option and enter info
+2020-07-24 12:42:57,783 INFO  - Click Gist Code Submit button
+2020-07-24 12:43:00,434 INFO  - ----- Ending PhoneOrderGiftCard -----
+2020-07-24 12:43:00,434 INFO  - ----------------------------
+2020-07-24 12:43:00,434 INFO  - Ending Phone Orders
+2020-07-24 12:43:00,434 INFO  - ----------------------------

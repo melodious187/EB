@@ -1,0 +1,65 @@
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 20209
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 26, 2020 2:51:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+New log filename is: 2020-06-26-1451_RegressionSuiteOneExAcct.log
+
+=============================
+     Starting Web Orders
+=============================
+=============================
+     Starting WebOrderCC
+=============================
+Starting 20 second sleep
+Ending 20 second sleep
+===========================
+     Ending WebOrderCC
+===========================
+====================================
+     Starting  WebOrderGiftCard
+====================================
+====================================
+     Ending of WebOrderGiftCard
+====================================
+===============================
+     Starting Phone Orders
+===============================
+===============================
+     Starting PhoneOrderCC
+===============================
+=============================
+     Ending PhoneOrderCC
+=============================
+========================================
+     Starting PhoneOderMailingCheck
+========================================
+=======================================
+     Ending PhoneOrderMailingCheck
+=======================================
+===============================================
+     Starting PhoneOrderManualSplitPayment
+===============================================
+=============================================
+     Ending PhoneOrderManualSplitPayment
+=============================================
+==============================================
+     Starting PhoneOrderNoPaymentRequired
+==============================================
+============================================
+     Ending PhoneOrderNoPaymentRequired
+============================================
+===================================
+     Starting PhoneOrderECheck
+===================================
+=================================
+     Ending PhoneOrderECheck
+=================================
+=====================================
+     Starting PhoneOrderGiftCard
+=====================================
+===================================
+     Ending PhoneOrderGiftCard
+===================================

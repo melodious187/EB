@@ -1,0 +1,120 @@
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 31841
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1596142311.707][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+Jul 30, 2020 1:51:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2020-07-30 13:51:54,165 INFO  - *******************************************************************************************
+2020-07-30 13:51:54,168 INFO  - *******************************************************************************************
+2020-07-30 13:51:54,169 INFO  -                     Regression Suite One Existing Account
+2020-07-30 13:51:54,169 INFO  - *******************************************************************************************
+2020-07-30 13:51:54,169 INFO  - *******************************************************************************************
+2020-07-30 13:51:56,312 INFO  - Date-Time stamp for regression suite test run: 2020-07-30-1351_RegressionSuiteOneExAcct.log
+2020-07-30 13:51:56,312 INFO  - ----------------------------
+2020-07-30 13:51:56,312 INFO  - Starting Web Orders
+2020-07-30 13:51:56,312 INFO  - ----------------------------
+2020-07-30 13:52:00,463 INFO  - Login to Website
+2020-07-30 13:52:07,664 INFO  - ----- Starting WebOrderCC -----
+2020-07-30 13:52:07,667 INFO  - Add a filter to the order
+2020-07-30 13:52:07,671 INFO  - --- Starting OrderFilter ---
+2020-07-30 13:52:07,671 INFO  - Search for a filter
+2020-07-30 13:52:18,616 INFO  - Click Buy Now
+2020-07-30 13:52:20,547 INFO  - Click Secure Checkout
+2020-07-30 13:52:25,927 INFO  - --- Ending OrderFilter ---
+2020-07-30 13:53:29,976 INFO  - Close PopUp
+2020-07-30 13:53:29,977 INFO  - ----- Ending WebOderCC -----
+2020-07-30 13:53:29,977 INFO  - ----- Starting WebOrderGiftCard -----
+2020-07-30 13:53:29,981 INFO  - Add a filter to the order
+2020-07-30 13:53:29,984 INFO  - --- Starting OrderFilter ---
+2020-07-30 13:53:29,984 INFO  - Search for a filter
+2020-07-30 13:53:37,736 INFO  - Click Buy Now
+2020-07-30 13:53:48,495 INFO  - Click Secure Checkout
+2020-07-30 13:54:02,884 INFO  - --- Ending OrderFilter ---
+2020-07-30 13:54:05,894 INFO  - Enter Gift Card info
+2020-07-30 13:54:21,074 INFO  - Submit Gift Card payment
+2020-07-30 13:54:29,476 INFO  - Close PopoUp
+2020-07-30 13:54:29,525 INFO  - ----- Ending WebOrderGiftCard -----
+2020-07-30 13:54:29,525 INFO  - ---------------------------
+2020-07-30 13:54:29,525 INFO  - Ending Web Orders
+2020-07-30 13:54:29,525 INFO  - ---------------------------
+2020-07-30 13:54:29,525 INFO  - -------------------------------
+2020-07-30 13:54:29,526 INFO  - Starting Phone Orders
+2020-07-30 13:54:29,526 INFO  - -------------------------------
+2020-07-30 13:54:32,460 INFO  - ----- Starting PhoneOrderCC -----
+2020-07-30 13:54:32,460 INFO  - Starting Phone Order Base
+2020-07-30 13:54:36,726 INFO  - Search for name of Customer
+2020-07-30 13:54:39,499 INFO  - Select Customer found
+2020-07-30 13:54:50,555 INFO  - Hit Continue
+2020-07-30 13:54:57,548 INFO  - Search for a Filter
+2020-07-30 13:55:03,614 INFO  - Select Filter
+2020-07-30 13:55:18,051 INFO  - Add Filter to cart
+2020-07-30 13:55:18,128 INFO  - Hit Continue
+2020-07-30 13:55:23,597 INFO  - Ending Phone Order Base
+2020-07-30 13:55:23,598 INFO  - Click Submit
+2020-07-30 13:55:27,449 INFO  - ----- Ending PhoneOrderCC -----
+2020-07-30 13:55:27,450 INFO  - ----- Starting PhoneOrderMailingCheck -----
+2020-07-30 13:55:27,451 INFO  - Starting Phone Order Base
+2020-07-30 13:55:31,515 INFO  - Search for name of Customer
+2020-07-30 13:55:34,113 INFO  - Select Customer found
+2020-07-30 13:55:44,835 INFO  - Hit Continue
+2020-07-30 13:55:51,587 INFO  - Search for a Filter
+2020-07-30 13:55:57,655 INFO  - Select Filter
+2020-07-30 13:56:11,734 INFO  - Add Filter to cart
+2020-07-30 13:56:11,829 INFO  - Hit Continue
+2020-07-30 13:56:17,290 INFO  - Ending Phone Order Base
+2020-07-30 13:56:17,290 INFO  - Select Mail Check order option and submit order
+2020-07-30 13:56:20,011 INFO  - ----- Ending PhoneOrderMailingCheck -----
+2020-07-30 13:56:20,012 INFO  - ----- Starting PhoneOrderManualSplitPayment -----
+2020-07-30 13:56:20,012 INFO  - Starting Phone Order Base
+2020-07-30 13:56:24,048 INFO  - Search for name of Customer
+2020-07-30 13:56:26,593 INFO  - Select Customer found
+2020-07-30 13:56:37,249 INFO  - Hit Continue
+2020-07-30 13:56:44,040 INFO  - Search for a Filter
+2020-07-30 13:56:50,099 INFO  - Select Filter
+2020-07-30 13:57:03,758 INFO  - Add Filter to cart
+2020-07-30 13:57:03,847 INFO  - Hit Continue
+2020-07-30 13:57:09,265 INFO  - Ending Phone Order Base
+2020-07-30 13:57:09,265 INFO  - Select Manual or Split Payment option and submit order
+2020-07-30 13:57:12,112 INFO  - ----- Ending PhoneOrderManualSplitPayment -----
+2020-07-30 13:57:12,113 INFO  - ----- Starting PhoneOrderNoPaymentRequired -----
+2020-07-30 13:57:12,113 INFO  - Starting Phone Order Base
+2020-07-30 13:57:16,240 INFO  - Search for name of Customer
+2020-07-30 13:57:18,818 INFO  - Select Customer found
+2020-07-30 13:57:29,559 INFO  - Hit Continue
+2020-07-30 13:57:36,380 INFO  - Search for a Filter
+2020-07-30 13:57:42,450 INFO  - Select Filter
+2020-07-30 13:57:56,285 INFO  - Add Filter to cart
+2020-07-30 13:57:56,359 INFO  - Hit Continue
+2020-07-30 13:58:01,713 INFO  - Ending Phone Order Base
+2020-07-30 13:58:01,713 INFO  - Select No Payment Required option and submit order
+2020-07-30 13:58:04,427 INFO  - ----- Ending PhoneOrderNoPaymentRequired -----
+2020-07-30 13:58:04,428 INFO  - ----- Starting PhoneOrderECheck
+2020-07-30 13:58:04,428 INFO  - Starting Phone Order Base
+2020-07-30 13:58:08,698 INFO  - Search for name of Customer
+2020-07-30 13:58:11,238 INFO  - Select Customer found
+2020-07-30 13:58:21,861 INFO  - Hit Continue
+2020-07-30 13:58:28,607 INFO  - Search for a Filter
+2020-07-30 13:58:34,675 INFO  - Select Filter
+2020-07-30 13:58:48,538 INFO  - Add Filter to cart
+2020-07-30 13:58:48,619 INFO  - Hit Continue
+2020-07-30 13:58:53,334 INFO  - Ending Phone Order Base
+2020-07-30 13:58:53,334 INFO  - Enter E-Check option and info
+2020-07-30 13:58:53,658 INFO  - Click Submit
+2020-07-30 13:58:57,294 INFO  - ----- Ending PhoneOrderECheck
+2020-07-30 13:58:57,294 INFO  - ----- Starting PhoneOderGiftCard -----
+2020-07-30 13:58:57,295 INFO  - Starting Phone Order Base
+2020-07-30 13:59:01,367 INFO  - Search for name of Customer
+2020-07-30 13:59:03,914 INFO  - Select Customer found
+2020-07-30 13:59:14,579 INFO  - Hit Continue
+2020-07-30 13:59:21,964 INFO  - Search for a Filter
+2020-07-30 13:59:28,018 INFO  - Select Filter
+2020-07-30 13:59:42,042 INFO  - Add Filter to cart
+2020-07-30 13:59:42,122 INFO  - Hit Continue
+2020-07-30 13:59:46,635 INFO  - Ending Phone Order Base
+2020-07-30 13:59:46,635 INFO  - Select Gift Card option and enter info
+2020-07-30 13:59:48,569 INFO  - Click Gist Code Submit button
+2020-07-30 13:59:51,648 INFO  - ----- Ending PhoneOrderGiftCard -----
+2020-07-30 13:59:51,649 INFO  - ----------------------------
+2020-07-30 13:59:51,649 INFO  - Ending Phone Orders
+2020-07-30 13:59:51,649 INFO  - ----------------------------

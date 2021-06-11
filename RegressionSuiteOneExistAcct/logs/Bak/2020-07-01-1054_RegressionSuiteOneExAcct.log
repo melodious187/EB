@@ -1,0 +1,72 @@
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10860
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 01, 2020 10:48:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 01, 2020 10:48:38 AM Utilities.Log info
+INFO: Chrome Driver Launched
+
+New log filename is: 2020-07-01-1048_RegressionSuiteOneExAcct.log
+
+=============================
+     Starting Web Orders
+=============================
+=============================
+     Starting WebOrderCC
+=============================
+Searching for filter
+Click Buy Now
+Add to cart
+Clicking Secure Checkout
+===========================
+     Ending WebOrderCC
+===========================
+====================================
+     Starting  WebOrderGiftCard
+====================================
+====================================
+     Ending of WebOrderGiftCard
+====================================
+===============================
+     Starting Phone Orders
+===============================
+===============================
+     Starting PhoneOrderCC
+===============================
+=============================
+     Ending PhoneOrderCC
+=============================
+========================================
+     Starting PhoneOderMailingCheck
+========================================
+=======================================
+     Ending PhoneOrderMailingCheck
+=======================================
+===============================================
+     Starting PhoneOrderManualSplitPayment
+===============================================
+=============================================
+     Ending PhoneOrderManualSplitPayment
+=============================================
+==============================================
+     Starting PhoneOrderNoPaymentRequired
+==============================================
+============================================
+     Ending PhoneOrderNoPaymentRequired
+============================================
+===================================
+     Starting PhoneOrderECheck
+===================================
+=================================
+     Ending PhoneOrderECheck
+=================================
+=====================================
+     Starting PhoneOrderGiftCard
+=====================================
+===================================
+     Ending PhoneOrderGiftCard
+===================================
+
+New log filename is: 2020-07-01-1054_RegressionSuiteOneExAcct.log
+

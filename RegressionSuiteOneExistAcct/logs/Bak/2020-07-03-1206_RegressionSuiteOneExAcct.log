@@ -1,0 +1,81 @@
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 18984
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 03, 2020 12:06:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+Date-Time stamp for regression suite test run: 2020-07-03-1206_RegressionSuiteOneExAcct.log
+
+=============================
+     Starting Web Orders
+=============================
+=============================
+     Starting WebOrderCC
+=============================
+Searching for filter
+Click Buy Now
+Add to cart
+Clicking Secure Checkout
+===========================
+     Ending WebOrderCC
+===========================
+====================================
+     Starting  WebOrderGiftCard
+====================================
+Starting OrderFilter
+Ending OrderFilter
+====================================
+     Ending of WebOrderGiftCard
+====================================
+===============================
+     Starting Phone Orders
+===============================
+===============================
+     Starting PhoneOrderCC
+===============================
+     Starting PhoneOrderBase
+     Ending PhoneOrderBase
+=============================
+     Ending PhoneOrderCC
+=============================
+========================================
+     Starting PhoneOderMailingCheck
+========================================
+     Starting PhoneOrderBase
+     Ending PhoneOrderBase
+=======================================
+     Ending PhoneOrderMailingCheck
+=======================================
+===============================================
+     Starting PhoneOrderManualSplitPayment
+===============================================
+     Starting PhoneOrderBase
+     Ending PhoneOrderBase
+=============================================
+     Ending PhoneOrderManualSplitPayment
+=============================================
+==============================================
+     Starting PhoneOrderNoPaymentRequired
+==============================================
+     Starting PhoneOrderBase
+     Ending PhoneOrderBase
+============================================
+     Ending PhoneOrderNoPaymentRequired
+============================================
+===================================
+     Starting PhoneOrderECheck
+===================================
+     Starting PhoneOrderBase
+     Ending PhoneOrderBase
+=================================
+     Ending PhoneOrderECheck
+=================================
+=====================================
+     Starting PhoneOrderGiftCard
+=====================================
+     Starting PhoneOrderBase
+     Ending PhoneOrderBase
+===================================
+     Ending PhoneOrderGiftCard
+===================================
