@@ -1,0 +1,453 @@
+{
+  "id": "af8fdbdc-2927-4e02-9bb0-b880191daf26",
+  "version": "2.0",
+  "name": "TestAccountCreation",
+  "url": "https://rentacpap.co",
+  "tests": [{
+    "id": "cf6123ca-48bf-4936-a69c-f1fc7a308fde",
+    "name": "1 TestAccountCreation",
+    "commands": [{
+      "id": "395031d8-261f-45e6-954f-21835bd7f8e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee0e0e74-f0a0-4505-9ec3-40cd09ed5193",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1575x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e53b4a0f-4ce4-452b-b384-766506f44655",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log In",
+      "targets": [
+        ["linkText=Log In", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log In')]", "xpath:link"],
+        ["xpath=//div[@id='topright']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rentacpap.co/secure/login.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b19e87d-da7a-4006-a8ec-b702345450bd",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "linkText=Log In",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7df59b5c-52a5-4824-bb5d-e9f44bd1c25b",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "linkText=Log In",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe17e0ac-db30-4c95-b478-d8887a1fba6d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create an Account",
+      "targets": [
+        ["linkText=Create an Account", "linkText"],
+        ["css=.newCustomer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create an Account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:createNewAccount();')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create an Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "177e6916-3689-4692-903b-595d160f4f13",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "223d59e4-a961-43ab-aa48-9beea67c8742",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.ex-customers > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/input", "xpath:position"]
+      ],
+      "value": "ECart1@fromthemind.com"
+    }, {
+      "id": "83ec696e-53eb-403f-8685-a7effc879444",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae9fdf2a-d477-40f7-8e73-c41621c2ee4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f52fdea5-c665-4334-9c16-f8f20811fc16",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_lr-hide:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "E4syBr34th3"
+    }, {
+      "id": "d0522728-b967-4540-873e-ec582c541d37",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=.\\_lr-hide:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "E4syBr34th3"
+    }, {
+      "id": "60668e3e-fb12-43c7-8adf-829c1fa181e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ex-customers > input:nth-child(4)",
+      "targets": [
+        ["css=.ex-customers > input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Create an Account']", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/fieldset/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53244624-afb0-4672-8b03-4dbc2654db2f",
+      "comment": "",
+      "command": "click",
+      "target": "name=shipFName",
+      "targets": [
+        ["name=shipFName", "name"],
+        ["css=.address:nth-child(10) div:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='shipFName']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b83fc42-f3a3-4cf3-96e8-7d6e93362783",
+      "comment": "",
+      "command": "type",
+      "target": "name=shipFName",
+      "targets": [
+        ["name=shipFName", "name"],
+        ["css=.address:nth-child(10) div:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='shipFName']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div/input", "xpath:position"]
+      ],
+      "value": "ECart1"
+    }, {
+      "id": "fbca1e44-382c-4264-b934-b6b0c6567ed7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.address:nth-child(10) div:nth-child(2) > label",
+      "targets": [
+        ["css=.address:nth-child(10) div:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[2]/form/div/fieldset/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07230b71-3a07-45cb-a66b-dbcb6f1e58ac",
+      "comment": "",
+      "command": "click",
+      "target": "name=shipLName",
+      "targets": [
+        ["name=shipLName", "name"],
+        ["css=.address:nth-child(10) div:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='shipLName']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59b559fa-2873-4fa1-a81d-b3c725133d3d",
+      "comment": "",
+      "command": "type",
+      "target": "name=shipLName",
+      "targets": [
+        ["name=shipLName", "name"],
+        ["css=.address:nth-child(10) div:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='shipLName']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[2]/input", "xpath:position"]
+      ],
+      "value": "QAEcart"
+    }, {
+      "id": "8a74d805-0c93-42cd-a2d3-83451843bfee",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c833bd1-bceb-4be3-a0ba-3c7a982d35b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=shipAddress1",
+      "targets": [
+        ["name=shipAddress1", "name"],
+        ["css=.address:nth-child(10) div:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='shipAddress1']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3483be13-db7b-402a-9d9a-569ca8b7e340",
+      "comment": "",
+      "command": "type",
+      "target": "name=shipAddress1",
+      "targets": [
+        ["name=shipAddress1", "name"],
+        ["css=.address:nth-child(10) div:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='shipAddress1']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[4]/input", "xpath:position"]
+      ],
+      "value": "1234 5th St"
+    }, {
+      "id": "e5cb1d49-0134-4eb9-8a9e-c5f1d9fc2a35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.address:nth-child(10) div:nth-child(6) > label",
+      "targets": [
+        ["css=.address:nth-child(10) div:nth-child(6) > label", "css:finder"],
+        ["xpath=//div[2]/form/div/fieldset/div[6]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d6bbed4-b4db-4829-8b44-9279398579ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=shipCity",
+      "targets": [
+        ["name=shipCity", "name"],
+        ["css=.address:nth-child(10) div:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='shipCity']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e3643c3-32aa-4388-a48b-fd11442b0c61",
+      "comment": "",
+      "command": "type",
+      "target": "name=shipEmail",
+      "targets": [
+        ["name=shipEmail", "name"],
+        ["css=.address:nth-child(10) > .left > div:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='shipEmail']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[3]/input", "xpath:position"]
+      ],
+      "value": "ECart1@fromthemind.com"
+    }, {
+      "id": "6d1a909c-1285-46ce-bd47-88b914658265",
+      "comment": "",
+      "command": "type",
+      "target": "name=shipCity",
+      "targets": [
+        ["name=shipCity", "name"],
+        ["css=.address:nth-child(10) div:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='shipCity']", "xpath:attributes"],
+        ["xpath=//div[2]/form/div/fieldset/div[6]/input", "xpath:position"]
+      ],
+      "value": "Schenectady"
+    }, {
+      "id": "51584607-9299-4776-9f98-ce3ebe53fb3e",
+      "comment": "",
+      "command": "select",
+      "target": "name=usState1",
+      "targets": [],
+      "value": "label=NY - New York"
+    }, {
+      "id": "8aecb6fb-21cf-4292-9430-476b9e2c09af",
+      "comment": "",
+      "command": "type",
+      "target": "name=shipZip",
+      "targets": [
+        ["name=shipZip", "name"],
+        ["css=div:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@name='shipZip']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "f395669d-af5a-477a-8cd6-e4dc201e565a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.address:nth-child(10) .c",
+      "targets": [
+        ["css=.address:nth-child(10) .c", "css:finder"],
+        ["xpath=//input[@value='Save Shipping Info']", "xpath:attributes"],
+        ["xpath=(//div[@id='bill_ship_sub']/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e8e721-b6e3-44eb-a5a0-eb906e63b638",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.login > a:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Log Out')])[2]", "xpath:link"],
+        ["xpath=//div[@id='topright']/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://rentacpap.co/secure/account.php?m=logout&go=https%3A%2F%2Frentacpap.co%2Findex.php')])[2]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "efe8965d-0b20-4df3-8c95-a5db123e43a1",
+    "name": "2 LoginToAccount",
+    "commands": [{
+      "id": "82caef73-9980-4f97-bec2-86e11e81fae9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77c0cd6d-50f9-4a4f-b9ab-5f9965b4278b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1562x847",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dfff1d7-3edc-4f66-908e-4d7f867c8aee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log In",
+      "targets": [
+        ["linkText=Log In", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log In')]", "xpath:link"],
+        ["xpath=//div[@id='topright']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rentacpap.co/secure/login.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85802bcd-3ed9-424e-982d-51bc65ccd855",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0362500a-d4fb-4cd3-8044-062cb8cd454a",
+      "comment": "",
+      "command": "click",
+      "target": "name=cEmail1",
+      "targets": [
+        ["name=cEmail1", "name"],
+        ["css=.loginForm > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='cEmail1']", "xpath:attributes"],
+        ["xpath=//div/div/form/fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39e93db4-d893-4e57-8d40-6d61560c2047",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=cEmail1",
+      "targets": [
+        ["name=cEmail1", "name"],
+        ["css=.loginForm > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='cEmail1']", "xpath:attributes"],
+        ["xpath=//div/div/form/fieldset/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6a93a8c9-17fd-4506-95d9-26740a7557d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=cEmail1",
+      "targets": [
+        ["name=cEmail1", "name"],
+        ["css=.loginForm > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='cEmail1']", "xpath:attributes"],
+        ["xpath=//div/div/form/fieldset/input", "xpath:position"]
+      ],
+      "value": "qa_3@fromthemind.com"
+    }, {
+      "id": "29bea6e2-c107-41fb-9ac8-93c0c51c1bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginBody > div:nth-child(1)",
+      "targets": [
+        ["css=.loginBody > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f761267a-0ba6-4515-96c7-9feeafb85a5d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=cPass1", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e604c895-ac4f-4136-a88b-e3519c7d4a6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=cPass1", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "E4syBr34th33"
+    }]
+  }],
+  "suites": [{
+    "id": "51536e5f-b349-4f31-9228-a863a86f3bfa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rentacpap.co/"],
+  "plugins": []
+}

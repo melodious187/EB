@@ -1,0 +1,493 @@
+{
+  "id": "80f7354c-0846-40da-b14d-8bac6c9f87b6",
+  "version": "2.0",
+  "name": "LMC",
+  "url": "https://rentacpap.co",
+  "tests": [{
+    "id": "4e2e107c-c03a-4fda-a5e7-167411eb99a2",
+    "name": "Order",
+    "commands": [{
+      "id": "5c902dd6-2ca8-448f-8f34-adc36b30b7ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e789898-5476-4a7e-ab58-2c3d47b1962b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1562x847",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66ca05c2-f817-46ca-93b7-137fdde7eb8c",
+      "comment": "",
+      "command": "times",
+      "target": "10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e0a9908-9515-4d7b-86a5-0f17724c8c4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Parts and Accessories",
+      "targets": [
+        ["linkText=Parts and Accessories", "linkText"],
+        ["css=#dd3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Parts and Accessories')]", "xpath:link"],
+        ["xpath=//li[@id='dd3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rentacpap.co/Shop-CPAP-Supplies-123.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Parts and Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4ef3a17-76fe-4846-b2d1-783fca63a86e",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(5) td:nth-child(2) img",
+      "targets": [
+        ["css=table:nth-child(5) td:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='All Filters']", "xpath:img"],
+        ["xpath=//table[2]/tbody/tr/td/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "827c1db0-ebe4-40de-9f5f-4783aafb2165",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DreamStation Series",
+      "targets": [
+        ["linkText=DreamStation Series", "linkText"],
+        ["css=.categoryImage:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rentacpap.co/Most-Popular-Parts/Filters/DreamStation-Series-c1036/')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DreamStation Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1270b557-ea43-4b17-8fc5-5acda477d829",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy_now:nth-child(6)",
+      "targets": [
+        ["css=.buy_now:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Buy Now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77f09c96-5130-4ea3-baec-e13d40ae6808",
+      "comment": "",
+      "command": "click",
+      "target": "id=addtoCart4535",
+      "targets": [
+        ["id=addtoCart4535", "id"],
+        ["css=#addtoCart4535", "css:finder"],
+        ["xpath=//input[@id='addtoCart4535']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm4535']/input[11]", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/div/form/input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1970cb58-6696-4873-b330-eb58334ee65d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Secure Checkout",
+      "targets": [
+        ["linkText=Secure Checkout", "linkText"],
+        ["css=.secureCheckout > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Secure Checkout')]", "xpath:link"],
+        ["xpath=//a[@onclick='javascript:checkout();']", "xpath:attributes"],
+        ["xpath=//div[@id='viewCart']/div[2]/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Secure Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dacc69d-8465-48b9-be4c-7c670541977e",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-button",
+      "targets": [
+        ["id=submit-button", "id"],
+        ["css=#submit-button", "css:finder"],
+        ["xpath=//button[@id='submit-button']", "xpath:attributes"],
+        ["xpath=//section[@id='final-checkout-questions']/button", "xpath:idRelative"],
+        ["xpath=//section[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit My Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75bb298b-1c12-471a-9031-16392ab28a99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.featherlight-close-icon",
+      "targets": [
+        ["css=.featherlight-close-icon", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'✕')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08eb7fe4-a758-4a67-bb56-6ce0525b5528",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "025ac360-66c3-4273-940d-b0e6c47a70ee",
+    "name": "PhoneOrders",
+    "commands": [{
+      "id": "b709388c-7638-4f6e-9572-ec71435513f0",
+      "comment": "",
+      "command": "times",
+      "target": "11",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f07906d4-3d05-4d31-b7de-6137e1722b1a",
+      "comment": "",
+      "command": "open",
+      "target": "/secure/admin/index.php?m=phoneOrderComplete&oNum=1588274455-110",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cc717da-6207-4c54-bb55-a1fdead6e2ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1575x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a31bfb-70e1-4a95-a6ce-8ffbe2a10dd7",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d36cdbc7-fd44-49fe-9869-50b9a1d93b2e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Start New Order']",
+      "targets": [
+        ["css=.label > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Start New Order']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b6bf86-7202-4e24-8186-ea6179450a51",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e799e5bf-7b81-4e73-8e3e-195e1d41031d",
+      "comment": "",
+      "command": "click",
+      "target": "name=fName",
+      "targets": [
+        ["name=fName", "name"],
+        ["css=div:nth-child(2) > .input > input", "css:finder"],
+        ["xpath=//input[@name='fName']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93283cd-2abc-46e4-bb0a-a98e480aa872",
+      "comment": "",
+      "command": "type",
+      "target": "name=fName",
+      "targets": [
+        ["name=fName", "name"],
+        ["css=div:nth-child(2) > .input > input", "css:finder"],
+        ["xpath=//input[@name='fName']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lmc"
+    }, {
+      "id": "60fd541f-9e5b-4d61-9f87-73f95a0a6d4e",
+      "comment": "",
+      "command": "type",
+      "target": "name=lName",
+      "targets": [
+        ["name=lName", "name"],
+        ["css=div:nth-child(3) > .input > input", "css:finder"],
+        ["xpath=//input[@name='lName']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "phone"
+    }, {
+      "id": "449f94e3-70e7-4dd8-bb5a-428f68c0c858",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Search']",
+      "targets": [
+        ["css=.input > .buttons > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[5]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ac50c9e-133a-446f-9065-b56a387ce423",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Select",
+      "targets": [
+        ["linkText=Select", "linkText"],
+        ["css=td > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Select')]", "xpath:link"],
+        ["xpath=//table[@id='list2']/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.php?m=phoneOrderCustomerDisplay&customerId=59fd655716ea472ff86f1d457c731e0b')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Select')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9767f072-bb2c-4fb1-bb84-5e7d81ae70c2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Continue']",
+      "targets": [
+        ["css=.buttons > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Continue']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ea6116-61b7-4e93-b147-b76e1dcb8a78",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//input[@value='Browse Store']",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "2c0a20aa-483b-49dd-b2a3-36c3700e5d83",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Browse Store']",
+      "targets": [
+        ["css=.input > .buttons > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Browse Store']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1305",
+      "windowTimeout": 2000
+    }, {
+      "id": "d9d1731d-84cb-4802-862d-6c24add46ba5",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e668f2cc-4ec4-486b-8d62-225ef32461d5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1305}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f819d7f-0c04-4815-9444-161aac3ba3a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Parts and Accessories",
+      "targets": [
+        ["linkText=Parts and Accessories", "linkText"],
+        ["css=#dd3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Parts and Accessories')]", "xpath:link"],
+        ["xpath=//li[@id='dd3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rentacpap.co/Shop-CPAP-Supplies-123.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Parts and Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f67119c-ba4c-4440-8356-4bc5d884ae89",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(1) th img",
+      "targets": [
+        ["css=table:nth-child(1) th img", "css:finder"],
+        ["xpath=//img[@alt='Supplies for Air 10 Series']", "xpath:img"],
+        ["xpath=//th/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b8231f-1a2b-48f7-9336-b2fcd96f250e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listProduct:nth-child(2) .buy_now",
+      "targets": [
+        ["css=.listProduct:nth-child(2) .buy_now", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy Now')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb1fd580-eb2d-4505-a195-016f4ed96c77",
+      "comment": "",
+      "command": "click",
+      "target": "id=addtoCart2670",
+      "targets": [
+        ["id=addtoCart2670", "id"],
+        ["css=#addtoCart2670", "css:finder"],
+        ["xpath=//input[@id='addtoCart2670']", "xpath:attributes"],
+        ["xpath=//form[@id='productForm2670']/input[11]", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/div/form/input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68b7810-8a13-423c-beb2-45bdf306bcd2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b8f2262-eee2-43bc-9c2f-eea21309b05d",
+      "comment": "",
+      "command": "click",
+      "target": "id=continue-order",
+      "targets": [
+        ["id=continue-order", "id"],
+        ["css=#continue-order", "css:finder"],
+        ["xpath=//input[@id='continue-order']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[3]/div[4]/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "741e60f6-42ab-4bea-a19f-92c4dc14ca0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input > .buttons > input",
+      "targets": [
+        ["css=.input > .buttons > input", "css:finder"],
+        ["xpath=//input[@value='Continue']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a11a65-8ea7-48a7-b1bc-4591709d424d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-standard:nth-child(6) > input",
+      "targets": [
+        ["css=.input-standard:nth-child(6) > input", "css:finder"],
+        ["xpath=(//input[@name='sweepstakesentry'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37a75c00-998d-4a72-9d74-d299e2fe7bc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttons > input:nth-child(2)",
+      "targets": [
+        ["css=.buttons > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Continue']", "xpath:attributes"],
+        ["xpath=//div[@id='customer']/div[7]/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c3191e5-1798-4da4-a9cf-04aface8af6e",
+      "comment": "",
+      "command": "click",
+      "target": "name=note",
+      "targets": [
+        ["name=note", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='note']", "xpath:attributes"],
+        ["xpath=//div[@id='tab-box-content']/div[3]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858abae8-89e7-472b-8a3b-bcaf644d5224",
+      "comment": "",
+      "command": "type",
+      "target": "name=note",
+      "targets": [
+        ["name=note", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='note']", "xpath:attributes"],
+        ["xpath=//div[@id='tab-box-content']/div[3]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lcm phone"
+    }, {
+      "id": "cdbb0ad7-74f1-4860-86fd-0c901e6f1324",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "2d86f98e-f69f-42e2-ab1f-8887224e79fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=tab-box-content",
+      "targets": [
+        ["id=tab-box-content", "id"],
+        ["css=#tab-box-content", "css:finder"],
+        ["xpath=//div[@id='tab-box-content']", "xpath:attributes"],
+        ["xpath=//div[@id='adminForm']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27694374-7f1a-4b6e-80cd-0b0ad9c8d570",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [
+        ["id=submitBtn", "id"],
+        ["name=submitBtn", "name"],
+        ["css=#submitBtn", "css:finder"],
+        ["xpath=//input[@id='submitBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='adminForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d384f9-d454-4a87-8278-4f0acafd809f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "153fad00-5e2b-4c80-a38e-8edd79c15f92",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4e2e107c-c03a-4fda-a5e7-167411eb99a2"]
+  }],
+  "urls": ["https://rentacpap.co/"],
+  "plugins": []
+}

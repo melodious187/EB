@@ -1,0 +1,57 @@
+2020-08-06 10:06:46 INFO *******************************************************************************************
+2020-08-06 10:06:46 INFO *******************************************************************************************
+2020-08-06 10:06:46 INFO                     Regression Suite One Existing Account
+2020-08-06 10:06:46 INFO *******************************************************************************************
+2020-08-06 10:06:46 INFO *******************************************************************************************
+2020-08-06 10:06:48 INFO Date-Time stamp for regression suite test run: 2020-08-06-1006_RegressionSuiteOneExAcct.log
+2020-08-06 10:06:48 INFO ----------------------------
+2020-08-06 10:06:48 INFO Starting Web Orders
+2020-08-06 10:06:48 INFO ----------------------------
+2020-08-06 10:06:53 INFO Login to Website
+2020-08-06 10:07:25 INFO ----- Starting WebOrderCC -----
+2020-08-06 10:07:25 INFO Add a filter to the order
+2020-08-06 10:07:25 INFO --- Starting OrderFilter ---
+2020-08-06 10:07:25 INFO Search for a filter
+2020-08-06 10:07:32 INFO Click Buy Now
+2020-08-06 10:07:41 INFO Click Secure Checkout
+2020-08-06 10:07:41 INFO --- Ending OrderFilter ---
+2020-08-06 10:08:45 INFO Close PopUp
+2020-08-06 10:08:45 INFO ----- Ending WebOderCC -----
+2020-08-06 10:08:45 INFO ----- Starting WebOrderGiftCard -----
+2020-08-06 10:08:45 INFO Add a filter to the order
+2020-08-06 10:08:45 INFO --- Starting OrderFilter ---
+2020-08-06 10:08:45 INFO Search for a filter
+2020-08-06 10:08:52 INFO Click Buy Now
+2020-08-06 10:09:08 INFO Click Secure Checkout
+2020-08-06 10:09:08 INFO --- Ending OrderFilter ---
+2020-08-06 10:09:11 INFO Enter Gift Card info
+2020-08-06 10:09:26 INFO Submit Gift Card payment
+2020-08-06 10:09:34 INFO Close PopoUp
+2020-08-06 10:09:35 INFO ----- Ending WebOrderGiftCard -----
+2020-08-06 10:09:35 INFO ---------------------------
+2020-08-06 10:09:35 INFO Ending Web Orders
+2020-08-06 10:09:35 INFO ---------------------------
+2020-08-06 10:09:35 INFO -------------------------------
+2020-08-06 10:09:35 INFO Starting Phone Orders
+2020-08-06 10:09:35 INFO -------------------------------
+2020-08-06 10:09:37 INFO ----- Starting PhoneOrderCC -----
+2020-08-06 10:09:37 INFO Starting Phone Order Base
+2020-08-06 10:09:41 INFO Search for name of Customer
+2020-08-06 10:09:44 INFO Select Customer found
+2020-08-06 10:09:56 INFO Hit Continue
+2020-08-06 10:10:02 INFO Search for a Filter
+2020-08-06 10:10:12 INFO Select Filter
+2020-08-06 10:10:26 INFO Add Filter to cart
+2020-08-06 10:10:26 INFO Hit Continue
+2020-08-06 10:10:31 INFO Ending Phone Order Base
+2020-08-06 10:10:31 INFO Click Submit
+2020-08-06 10:10:36 INFO ----- Ending PhoneOrderCC -----
+2020-08-06 10:10:36 INFO ----- Starting PhoneOrderMailingCheck -----
+2020-08-06 10:10:36 INFO Starting Phone Order Base
+2020-08-06 10:10:40 INFO Search for name of Customer
+2020-08-06 10:10:43 INFO Select Customer found
+2020-08-06 10:10:54 INFO Hit Continue
+2020-08-06 10:11:00 INFO Search for a Filter
+2020-08-06 10:11:11 INFO Select Filter
+2020-08-06 10:11:24 INFO Add Filter to cart
+2020-08-06 10:11:24 INFO Hit Continue

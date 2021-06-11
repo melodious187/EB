@@ -1,0 +1,116 @@
+2020-08-12 10:22:11 INFO *******************************************************************************************
+2020-08-12 10:22:11 INFO *******************************************************************************************
+2020-08-12 10:22:11 INFO                     Regression Suite One Existing Account
+2020-08-12 10:22:11 INFO *******************************************************************************************
+2020-08-12 10:22:11 INFO *******************************************************************************************
+2020-08-12 10:22:13 INFO Date-Time stamp for regression suite test run: 2020-08-12-1022_RegressionSuiteOneExAcct.log
+2020-08-12 10:22:13 INFO ----------------------------
+2020-08-12 10:22:13 INFO Starting Web Orders
+2020-08-12 10:22:13 INFO ----------------------------
+2020-08-12 10:22:17 INFO Login to Website
+2020-08-12 10:22:27 INFO ----- Starting WebOrderCC -----
+2020-08-12 10:22:27 INFO Add a filter to the order
+2020-08-12 10:22:27 INFO --- Starting OrderFilter ---
+2020-08-12 10:22:27 INFO Search for a filter
+2020-08-12 10:22:34 INFO Click Buy Now
+2020-08-12 10:22:36 INFO Click Secure Checkout
+2020-08-12 10:22:36 INFO --- Ending OrderFilter ---
+2020-08-12 10:23:41 INFO Close PopUp
+2020-08-12 10:23:41 INFO ----- Ending WebOderCC -----
+2020-08-12 10:23:41 INFO ----- Starting WebOrderGiftCard -----
+2020-08-12 10:23:41 INFO Add a filter to the order
+2020-08-12 10:23:41 INFO --- Starting OrderFilter ---
+2020-08-12 10:23:41 INFO Search for a filter
+2020-08-12 10:23:48 INFO Click Buy Now
+2020-08-12 10:23:56 INFO Click Secure Checkout
+2020-08-12 10:23:56 INFO --- Ending OrderFilter ---
+2020-08-12 10:23:59 INFO Enter Gift Card info
+2020-08-12 10:24:16 INFO Submit Gift Card payment
+2020-08-12 10:24:24 INFO Close PopoUp
+2020-08-12 10:24:24 INFO ----- Ending WebOrderGiftCard -----
+2020-08-12 10:24:24 INFO ---------------------------
+2020-08-12 10:24:24 INFO Ending Web Orders
+2020-08-12 10:24:24 INFO ---------------------------
+2020-08-12 10:24:24 INFO -------------------------------
+2020-08-12 10:24:24 INFO Starting Phone Orders
+2020-08-12 10:24:24 INFO -------------------------------
+2020-08-12 10:24:27 INFO ----- Starting PhoneOrderCC -----
+2020-08-12 10:24:27 INFO Starting Phone Order Base
+2020-08-12 10:24:31 INFO Search for name of Customer
+2020-08-12 10:24:33 INFO Select Customer found
+2020-08-12 10:24:45 INFO Hit Continue
+2020-08-12 10:24:47 INFO Search for a Filter
+2020-08-12 10:24:59 INFO Select Filter
+2020-08-12 10:25:16 INFO Add Filter to cart
+2020-08-12 10:25:16 INFO Hit Continue
+2020-08-12 10:25:22 INFO Ending Phone Order Base
+2020-08-12 10:25:22 INFO Click Submit
+2020-08-12 10:25:27 INFO ----- Ending PhoneOrderCC -----
+2020-08-12 10:25:27 INFO ----- Starting PhoneOrderMailingCheck -----
+2020-08-12 10:25:27 INFO Starting Phone Order Base
+2020-08-12 10:25:32 INFO Search for name of Customer
+2020-08-12 10:25:35 INFO Select Customer found
+2020-08-12 10:25:45 INFO Hit Continue
+2020-08-12 10:25:47 INFO Search for a Filter
+2020-08-12 10:25:59 INFO Select Filter
+2020-08-12 10:26:16 INFO Add Filter to cart
+2020-08-12 10:26:16 INFO Hit Continue
+2020-08-12 10:26:20 INFO Ending Phone Order Base
+2020-08-12 10:26:20 INFO Select Mail Check order option and submit order
+2020-08-12 10:26:23 INFO ----- Ending PhoneOrderMailingCheck -----
+2020-08-12 10:26:23 INFO ----- Starting PhoneOrderManualSplitPayment -----
+2020-08-12 10:26:23 INFO Starting Phone Order Base
+2020-08-12 10:26:28 INFO Search for name of Customer
+2020-08-12 10:26:30 INFO Select Customer found
+2020-08-12 10:26:41 INFO Hit Continue
+2020-08-12 10:26:44 INFO Search for a Filter
+2020-08-12 10:26:56 INFO Select Filter
+2020-08-12 10:27:12 INFO Add Filter to cart
+2020-08-12 10:27:12 INFO Hit Continue
+2020-08-12 10:27:16 INFO Ending Phone Order Base
+2020-08-12 10:27:16 INFO Select Manual or Split Payment option and submit order
+2020-08-12 10:27:19 INFO ----- Ending PhoneOrderManualSplitPayment -----
+2020-08-12 10:27:19 INFO ----- Starting PhoneOrderNoPaymentRequired -----
+2020-08-12 10:27:19 INFO Starting Phone Order Base
+2020-08-12 10:27:23 INFO Search for name of Customer
+2020-08-12 10:27:25 INFO Select Customer found
+2020-08-12 10:27:36 INFO Hit Continue
+2020-08-12 10:27:39 INFO Search for a Filter
+2020-08-12 10:27:51 INFO Select Filter
+2020-08-12 10:28:07 INFO Add Filter to cart
+2020-08-12 10:28:07 INFO Hit Continue
+2020-08-12 10:28:12 INFO Ending Phone Order Base
+2020-08-12 10:28:12 INFO Select No Payment Required option and submit order
+2020-08-12 10:28:15 INFO ----- Ending PhoneOrderNoPaymentRequired -----
+2020-08-12 10:28:15 INFO ----- Starting PhoneOrderECheck
+2020-08-12 10:28:15 INFO Starting Phone Order Base
+2020-08-12 10:28:20 INFO Search for name of Customer
+2020-08-12 10:28:22 INFO Select Customer found
+2020-08-12 10:28:33 INFO Hit Continue
+2020-08-12 10:28:35 INFO Search for a Filter
+2020-08-12 10:28:47 INFO Select Filter
+2020-08-12 10:29:03 INFO Add Filter to cart
+2020-08-12 10:29:03 INFO Hit Continue
+2020-08-12 10:29:07 INFO Ending Phone Order Base
+2020-08-12 10:29:07 INFO Enter E-Check option and info
+2020-08-12 10:29:08 INFO Click Submit
+2020-08-12 10:29:11 INFO ----- Ending PhoneOrderECheck
+2020-08-12 10:29:11 INFO ----- Starting PhoneOderGiftCard -----
+2020-08-12 10:29:11 INFO Starting Phone Order Base
+2020-08-12 10:29:15 INFO Search for name of Customer
+2020-08-12 10:29:18 INFO Select Customer found
+2020-08-12 10:29:29 INFO Hit Continue
+2020-08-12 10:29:31 INFO Search for a Filter
+2020-08-12 10:29:43 INFO Select Filter
+2020-08-12 10:29:58 INFO Add Filter to cart
+2020-08-12 10:29:59 INFO Hit Continue
+2020-08-12 10:30:05 INFO Ending Phone Order Base
+2020-08-12 10:30:05 INFO Select Gift Card option and enter info
+2020-08-12 10:30:07 INFO Click Gist Code Submit button
+2020-08-12 10:30:10 INFO ----- Ending PhoneOrderGiftCard -----
+2020-08-12 10:30:10 INFO ----------------------------
+2020-08-12 10:30:10 INFO Ending Phone Orders
+2020-08-12 10:30:10 INFO ----------------------------
+2020-08-12 10:30:10 INFO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2020-08-12 10:30:10 INFO                       Ending Regression Suite One Existing Account
+2020-08-12 10:30:10 INFO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

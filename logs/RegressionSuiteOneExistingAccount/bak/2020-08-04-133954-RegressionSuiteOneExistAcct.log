@@ -1,0 +1,106 @@
+2020-08-04 13:39:54 INFO *******************************************************************************************
+2020-08-04 13:39:54 INFO *******************************************************************************************
+2020-08-04 13:39:54 INFO                     Regression Suite One Existing Account
+2020-08-04 13:39:54 INFO *******************************************************************************************
+2020-08-04 13:39:54 INFO *******************************************************************************************
+2020-08-04 13:39:56 INFO Date-Time stamp for regression suite test run: 2020-08-04-1339_RegressionSuiteOneExAcct.log
+2020-08-04 13:39:56 INFO ----------------------------
+2020-08-04 13:39:56 INFO Starting Web Orders
+2020-08-04 13:39:56 INFO ----------------------------
+2020-08-04 13:39:59 INFO Login to Website
+2020-08-04 13:40:08 INFO ----- Starting WebOrderCC -----
+2020-08-04 13:40:08 INFO Add a filter to the order
+2020-08-04 13:40:08 INFO --- Starting OrderFilter ---
+2020-08-04 13:40:08 INFO Search for a filter
+2020-08-04 13:40:18 INFO Click Buy Now
+2020-08-04 13:40:27 INFO Click Secure Checkout
+2020-08-04 13:40:28 INFO --- Ending OrderFilter ---
+2020-08-04 13:41:32 INFO Close PopUp
+2020-08-04 13:41:32 INFO ----- Ending WebOderCC -----
+2020-08-04 13:41:32 INFO ----- Starting WebOrderGiftCard -----
+2020-08-04 13:41:32 INFO Add a filter to the order
+2020-08-04 13:41:32 INFO --- Starting OrderFilter ---
+2020-08-04 13:41:32 INFO Search for a filter
+2020-08-04 13:41:39 INFO Click Buy Now
+2020-08-04 13:41:47 INFO Click Secure Checkout
+2020-08-04 13:41:47 INFO --- Ending OrderFilter ---
+2020-08-04 13:41:50 INFO Enter Gift Card info
+2020-08-04 13:42:09 INFO Submit Gift Card payment
+2020-08-04 13:42:16 INFO Close PopoUp
+2020-08-04 13:42:16 INFO ----- Ending WebOrderGiftCard -----
+2020-08-04 13:42:16 INFO ---------------------------
+2020-08-04 13:42:16 INFO Ending Web Orders
+2020-08-04 13:42:16 INFO ---------------------------
+2020-08-04 13:42:16 INFO -------------------------------
+2020-08-04 13:42:16 INFO Starting Phone Orders
+2020-08-04 13:42:16 INFO -------------------------------
+2020-08-04 13:42:19 INFO ----- Starting PhoneOrderCC -----
+2020-08-04 13:42:19 INFO Starting Phone Order Base
+2020-08-04 13:42:23 INFO Search for name of Customer
+2020-08-04 13:42:26 INFO Select Customer found
+2020-08-04 13:42:37 INFO Hit Continue
+2020-08-04 13:42:44 INFO Search for a Filter
+2020-08-04 13:42:50 INFO Select Filter
+2020-08-04 13:43:03 INFO Add Filter to cart
+2020-08-04 13:43:03 INFO Hit Continue
+2020-08-04 13:43:08 INFO Ending Phone Order Base
+2020-08-04 13:43:08 INFO Click Submit
+2020-08-04 13:43:12 INFO ----- Ending PhoneOrderCC -----
+2020-08-04 13:43:12 INFO ----- Starting PhoneOrderMailingCheck -----
+2020-08-04 13:43:12 INFO Starting Phone Order Base
+2020-08-04 13:43:16 INFO Search for name of Customer
+2020-08-04 13:43:19 INFO Select Customer found
+2020-08-04 13:43:30 INFO Hit Continue
+2020-08-04 13:43:36 INFO Search for a Filter
+2020-08-04 13:43:42 INFO Select Filter
+2020-08-04 13:43:56 INFO Add Filter to cart
+2020-08-04 13:43:56 INFO Hit Continue
+2020-08-04 13:44:01 INFO Ending Phone Order Base
+2020-08-04 13:44:01 INFO Select Mail Check order option and submit order
+2020-08-04 13:44:04 INFO ----- Ending PhoneOrderMailingCheck -----
+2020-08-04 13:44:04 INFO ----- Starting PhoneOrderManualSplitPayment -----
+2020-08-04 13:44:04 INFO Starting Phone Order Base
+2020-08-04 13:44:08 INFO Search for name of Customer
+2020-08-04 13:44:11 INFO Select Customer found
+2020-08-04 13:44:21 INFO Hit Continue
+2020-08-04 13:44:28 INFO Search for a Filter
+2020-08-04 13:44:34 INFO Select Filter
+2020-08-04 13:44:47 INFO Add Filter to cart
+2020-08-04 13:44:47 INFO Hit Continue
+2020-08-04 13:44:51 INFO Ending Phone Order Base
+2020-08-04 13:44:52 INFO Select Manual or Split Payment option and submit order
+2020-08-04 13:44:55 INFO ----- Ending PhoneOrderManualSplitPayment -----
+2020-08-04 13:44:55 INFO ----- Starting PhoneOrderNoPaymentRequired -----
+2020-08-04 13:44:55 INFO Starting Phone Order Base
+2020-08-04 13:44:59 INFO Search for name of Customer
+2020-08-04 13:45:01 INFO Select Customer found
+2020-08-04 13:45:13 INFO Hit Continue
+2020-08-04 13:45:19 INFO Search for a Filter
+2020-08-04 13:45:25 INFO Select Filter
+2020-08-04 13:45:38 INFO Add Filter to cart
+2020-08-04 13:45:38 INFO Hit Continue
+2020-08-04 13:45:43 INFO Ending Phone Order Base
+2020-08-04 13:45:43 INFO Select No Payment Required option and submit order
+2020-08-04 13:45:45 INFO ----- Ending PhoneOrderNoPaymentRequired -----
+2020-08-04 13:45:45 INFO ----- Starting PhoneOrderECheck
+2020-08-04 13:45:45 INFO Starting Phone Order Base
+2020-08-04 13:45:49 INFO Search for name of Customer
+2020-08-04 13:45:52 INFO Select Customer found
+2020-08-04 13:46:03 INFO Hit Continue
+2020-08-04 13:46:09 INFO Search for a Filter
+2020-08-04 13:46:15 INFO Select Filter
+2020-08-04 13:46:29 INFO Add Filter to cart
+2020-08-04 13:46:29 INFO Hit Continue
+2020-08-04 13:46:34 INFO Ending Phone Order Base
+2020-08-04 13:46:34 INFO Enter E-Check option and info
+2020-08-04 13:46:34 INFO Click Submit
+2020-08-04 13:46:37 INFO ----- Ending PhoneOrderECheck
+2020-08-04 13:46:37 INFO ----- Starting PhoneOderGiftCard -----
+2020-08-04 13:46:37 INFO Starting Phone Order Base
+2020-08-04 13:46:41 INFO Search for name of Customer
+2020-08-04 13:46:44 INFO Select Customer found
+2020-08-04 13:46:55 INFO Hit Continue
+2020-08-04 13:47:01 INFO Search for a Filter
+2020-08-04 13:47:07 INFO Select Filter
+2020-08-04 13:47:21 INFO Add Filter to cart
+2020-08-04 13:47:21 INFO Hit Continue
